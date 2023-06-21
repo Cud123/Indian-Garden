@@ -1,0 +1,160 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #FFF;
+  }
+  
+  header {
+    background-color: #FFB300;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Rest of the CSS code remains the same */
+  
+  
+  /* Rest of the CSS code remains the same */
+  
+  
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #333;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #FED137;
+  }
+  
+  section {
+    padding: 80px 0;
+    text-align: center;
+    position: relative;
+    color: #FFF;
+  }
+  
+  section h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #FED137;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  section p {
+    font-size: 18px;
+    color: #FFF;
+  }
+  
+  #home {
+    background-color: #000;
+    background-image: url("images/2016-09-02.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #menu {
+    background-color: #FED137;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .menu-item {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .menu-item img {
+    max-width: 300px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .menu-item h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .menu-item p {
+    color: #888;
+    font-size: 16px;
+  }
+  
+  #specials {
+    background-color: #000;
+    background-image: url("images/20221118_113951.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #contact {
+    background-color: #FED137;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  #order {
+    background-color: #000;
+    background-image: url("images/2023-02-22.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #FFF;
+  }
+  
